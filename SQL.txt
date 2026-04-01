@@ -1,0 +1,78 @@
+CREATE TABLE Persons (
+    PersonID int,
+    LastName' at line 1
+mysql> SELECT LOWER('HELP4CODE ELEARING')FROM DUAL;
++-----------------------------+
+| LOWER('HELP4CODE ELEARING') |
++-----------------------------+
+| help4code elearing          |
++-----------------------------+
+1 row in set (0.174 sec)
+
+mysql> SELECT UPPER('help4code elearing')from dual;
++-----------------------------+
+| UPPER('help4code elearing') |
++-----------------------------+
+| HELP4CODE ELEARING          |
++-----------------------------+
+1 row in set (0.082 sec)
+
+mysql> select rtrim('Help4code Elearning234','234')from dual;
+
+mysql> select rpad('Help4code','15','_')from dual;
++----------------------------+
+| rpad('Help4code','15','_') |
++----------------------------+
+| Help4code______            |
++----------------------------+
+1 row in set (0.363 sec)
+
+mysql> select lpad('Help4code','15','hello')from dual;
++--------------------------------+
+| lpad('Help4code','15','hello') |
++--------------------------------+
+| hellohHelp4code                |
++--------------------------------+
+1 row in set (0.292 sec)
+
+
+mysql> SELECT ascii('A')from dual;
++------------+
+| ascii('A') |
++------------+
+|         65 |
++------------+
+1 row in set (0.020 sec)
+
+mysql> SELECT ascii('t')from dual;
++------------+
+| ascii('t') |
++------------+
+|        116 |
++------------+
+1 row in set (0.006 sec)
+
+mysql> SELECT INSTR('help4code','learn')from dual;
++----------------------------+
+| INSTR('help4code','learn') |
++----------------------------+
+|                          0 |
++----------------------------+
+1 row in set (0.057 sec)
+
+mysql> select 30 + 20 from dual;
++---------+
+| 30 + 20 |
++---------+
+|      50 |
++---------+
+1 row in set (0.066 sec)
+
+mysql> select 30 - 20 from dual;
++---------+
+| 30 - 20 |
++---------+
+|      10 |
++---------+
+1 row in set (0.027 sec)
+
